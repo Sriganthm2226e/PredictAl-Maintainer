@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --bg-dark: #050505;
+  --card-dark: #0f1115;
+  --border-dark: #1e293b;
+  --text-main: #f8fafc;
+  --text-muted: #64748b;
+  --primary: #3b82f6;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar for the feed */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+}
+
+/* Glass effect utilities */
+.glass-effect {
+  background: rgba(15, 17, 21, 0.7);
+  backdrop-filter: blur(10px);
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(to right, #60a5fa, #a855f7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

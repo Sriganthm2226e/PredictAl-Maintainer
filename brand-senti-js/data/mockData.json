@@ -1,0 +1,79 @@
+{
+  "total_mentions": 1240,
+  "positive_mentions": 850,
+  "negative_mentions": 120,
+  "neutral_mentions": 270,
+  "engagement": "12.5k",
+  "kpi_trends": {
+    "mentions": "+12%",
+    "positive": "+15%",
+    "negative": "-5%",
+    "neutral": "+2%",
+    "engagement": "+20%"
+  },
+  "mentions_over_time": [
+    { "date": "2024-03-20", "count": 120 },
+    { "date": "2024-03-21", "count": 150 },
+    { "date": "2024-03-22", "count": 140 },
+    { "date": "2024-03-23", "count": 180 },
+    { "date": "2024-03-24", "count": 210 },
+    { "date": "2024-03-25", "count": 190 },
+    { "date": "2024-03-26", "count": 250 }
+  ],
+  "sentiment_distribution": [
+    { "name": "Positive", "value": 850, "color": "#10b981" },
+    { "name": "Neutral", "value": 270, "color": "#f59e0b" },
+    { "name": "Negative", "value": 120, "color": "#ef4444" }
+  ],
+  "sentiment_trends": [
+    { "date": "2024-03-20", "positive": 80, "neutral": 30, "negative": 10 },
+    { "date": "2024-03-21", "positive": 100, "neutral": 40, "negative": 10 },
+    { "date": "2024-03-22", "positive": 90, "neutral": 35, "negative": 15 },
+    { "date": "2024-03-23", "positive": 130, "neutral": 40, "negative": 10 },
+    { "date": "2024-03-24", "positive": 150, "neutral": 50, "negative": 10 },
+    { "date": "2024-03-25", "positive": 140, "neutral": 40, "negative": 10 },
+    { "date": "2024-03-26", "positive": 180, "neutral": 50, "negative": 20 }
+  ],
+  "top_keywords": [
+    { "text": "Innovation", "count": 156 },
+    { "text": "Reliability", "count": 98 },
+    { "text": "CustomerSupport", "count": 87 },
+    { "text": "Expensive", "count": 45 },
+    { "text": "UserInterface", "count": 34 }
+  ],
+  "recent_mentions": [
+    {
+      "id": 1,
+      "username": "@tech_wiz",
+      "content": "The new update is absolutely game-changing. Best performance yet!",
+      "timestamp": "2h ago",
+      "sentiment": "Positive",
+      "platform": "Twitter"
+    },
+    {
+      "id": 2,
+      "username": "@angry_user99",
+      "content": "Still waiting for a response from support. It's been 3 days...",
+      "timestamp": "4h ago",
+      "sentiment": "Negative",
+      "platform": "Reddit"
+    },
+    {
+      "id": 3,
+      "username": "@market_watcher",
+      "content": "Seeing interesting trends in the latest release notes.",
+      "timestamp": "5h ago",
+      "sentiment": "Neutral",
+      "platform": "LinkedIn"
+    }
+  ],
+  "competitors": [
+    { "name": "Competitor A", "mentions": 950, "positive": 45, "negative": 10, "neutral": 45, "engagement": "8.2k" },
+    { "name": "Competitor B", "mentions": 1100, "positive": 60, "negative": 5, "neutral": 35, "engagement": "10.5k" },
+    { "name": "Competitor C", "mentions": 780, "positive": 30, "negative": 25, "neutral": 45, "engagement": "5.1k" }
+  ],
+  "alerts": [
+    { "type": "Negative Spike", "message": "15% increase in negative sentiment in the last 2 hours.", "time": "Just now" },
+    { "type": "Viral Post", "message": "A post by @influencer_x reached 10k likes.", "time": "1h ago" }
+  ]
+}
