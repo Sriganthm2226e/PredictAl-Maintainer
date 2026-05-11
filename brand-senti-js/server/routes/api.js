@@ -2,13 +2,13 @@ const express = require('express');
 const router = express.Router();
 
 let userData = {
-  name: "Ankit Verma",
-  email: "ankit@brandsenti.ai",
+  name: "Sriganth M",
+  email: "sriganthm2006@gmail.com",
   role: "Admin",
   plan: "Professional",
   mentionsLeft: 18450,
   totalMentions: 50000,
-  avatar: "https://ui-avatars.com/api/?name=Ankit+Verma&background=random"
+  avatar: "https://ui-avatars.com/api/?name=Sriganth+M&background=random"
 };
 
 // GET /api/user

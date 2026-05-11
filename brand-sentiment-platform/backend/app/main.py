@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes import sentiment, mentions
+from .routes import sentiment, mentions
 
 app = FastAPI(title="BrandSentiment AI API")
 
