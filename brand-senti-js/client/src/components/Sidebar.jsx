@@ -30,14 +30,7 @@ const Sidebar = () => {
         <Menu className="w-5 h-5 text-slate-500 ml-auto cursor-pointer" />
       </div>
 
-      {/* Brand Selector */}
-      <div className="bg-[#050505] border border-slate-800 rounded-xl px-4 py-3 mb-8 flex items-center gap-3 cursor-pointer hover:border-slate-700 transition-all">
-        <div className="w-6 h-6 bg-red-600 rounded-full flex items-center justify-center text-[10px] text-white font-bold">C</div>
-        <div className="flex-1">
-          <p className="text-xs font-bold text-white leading-none">Coca-Cola</p>
-        </div>
-        <ChevronDown className="w-4 h-4 text-slate-500" />
-      </div>
+
 
       {/* Nav Menu */}
       <nav className="flex-1 space-y-1 overflow-y-auto custom-scrollbar">
