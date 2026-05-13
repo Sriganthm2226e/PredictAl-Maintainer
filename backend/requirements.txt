@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+python-socketio
+python-engineio
+celery
+redis
+pydantic
+email-validator
+textblob
+vaderSentiment
+python-multipart
+aiosqlite
