@@ -10,7 +10,7 @@ import {
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const API_BASE = "http://127.0.0.1:8000/api/v1";
+const API_BASE = "http://localhost:5000/api/v1";
 const COLORS = ['#10b981', '#ef4444', '#f59e0b']; // Positive, Negative, Neutral
 
 const SentimentPage = () => {

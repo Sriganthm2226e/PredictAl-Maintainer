@@ -16,7 +16,7 @@ const { io } = require('../server');
  * POST /api/sentiment/analyze
  * Body: { brand: string }
  */
-exports.analyzeBrand = async (req, res, next) => {
+exports.analyzeSentiment = async (req, res, next) => {
   try {
     const { brand } = req.body;
     if (!brand) return res.status(400).json({ success: false, message: 'Brand name required' });

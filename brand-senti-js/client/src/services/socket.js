@@ -1,10 +1,9 @@
 import { io } from "socket.io-client";
 
-// Define backend Socket.IO websocket URL (FastAPI mounts SocketApp on /ws)
-const SOCKET_URL = "http://127.0.0.1:8000";
+// Define backend Socket.IO websocket URL
+const SOCKET_URL = "http://localhost:5000";
 
 export const socket = io(SOCKET_URL, {
-  path: "/ws/socket.io",
   transports: ["websocket"],
   reconnection: true,
   reconnectionAttempts: 10,

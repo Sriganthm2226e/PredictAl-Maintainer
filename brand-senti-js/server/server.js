@@ -29,6 +29,7 @@ app.use('/api/dashboard', dashboardRoute);
 app.use('/api', apiRoute);
 app.use('/api/auth', authRoute);
 app.use('/api/profile', profileRoute);
+app.use('/api/v1', require('./routes/v1'));
 
 // Health check
 app.get('/', (req, res) => {

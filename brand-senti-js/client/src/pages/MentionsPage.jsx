@@ -7,7 +7,7 @@ import {
 import Header from '../components/Header.jsx';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const API_BASE = "http://127.0.0.1:8000/api/v1";
+const API_BASE = "http://localhost:5000/api/v1";
 
 const MentionsPage = () => {
   const [token, setToken] = useState(localStorage.getItem("brand_senti_token"));

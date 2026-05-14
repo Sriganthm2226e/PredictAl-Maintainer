@@ -18,8 +18,7 @@ function connectDB() {
     })
     .then(() => logger.info('MongoDB connected'))
     .catch((err) => {
-      logger.error('MongoDB connection error:', err);
-      process.exit(1);
+      logger.error('MongoDB connection error (running in mock/offline mode):', err.message);
     });
 }
 

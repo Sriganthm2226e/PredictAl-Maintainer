@@ -4,14 +4,14 @@ const generateToken = require('../utils/generateToken');
 const User = require('../models/User');
 const admin = require('firebase-admin');
 
-// Ensure Firebase Admin is initialized (singleton)
-if (!admin.apps.length) {
+// Ensure Firebase Admin is initialized (singleton) if valid private key is provided
+if (!admin.apps.length && process.env.FIREBASE_PRIVATE_KEY && process.env.FIREBASE_PRIVATE_KEY.startsWith('-----BEGIN')) {
   admin.initializeApp({
     credential: admin.credential.cert({
       projectId: process.env.FIREBASE_PROJECT_ID,
       clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
       // Private key may contain escaped newlines
-      privateKey: process.env.FIREBASE_PRIVATE_KEY?.replace(/\\n/g, '\n'),
+      privateKey: process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n'),
     }),
   });
 }
